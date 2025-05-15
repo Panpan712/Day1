@@ -51,3 +51,10 @@ const clone = { ...person };
 clone.address.city = "Mandalay";
 
 console.log(person.address.city); 
+
+//Spread in Objects
+
+const persons = { name: "Aye" };
+const clone = { ...persons, age: 20 };
+
+console.log(clone); 
